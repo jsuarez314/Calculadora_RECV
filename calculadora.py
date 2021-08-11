@@ -5,6 +5,7 @@ def fibonacci(a):
 	serie =  0
 	s = 0
 	f0 ,f1  = 0,1  #primeros dos terminos
+	lista  =  []
 
 	
 
@@ -26,10 +27,15 @@ def fibonacci(a):
 	else:
 
 		while serie < a:  
-			print(f0)
+			lista.append(f0)
 			s=  f0  + f1
 			f0  = f1
 			f1 = s
 			serie =  serie + 1 
+			
+
+	return lista 
+
+
 
  
