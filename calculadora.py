@@ -1,6 +1,10 @@
 import numpy as np
 
 
+def raiz3(a):
+  raiz = np.cbrt(a)
+  return raiz
+
 def cuadrado(a):
 	return a*a
 
