@@ -1,6 +1,9 @@
 import numpy as np
 
 
+def cuadrado(a):
+	return a*a
+
 def promedio(a,b,c,d):
     resultado=(a+b+c+d)/4
     return resultado
