@@ -1,5 +1,13 @@
 import numpy as np
 
+def minimo(a,b,c):
+    res=c
+    if(a<=b and a<=c):
+        res=a
+    elif(b<=c):
+        res=b
+    return res
+
 def senocoseno(a):
     #calcula la suma del seno de a y el coseno de a
     suma=np.sin(a)+np.cos(a)
