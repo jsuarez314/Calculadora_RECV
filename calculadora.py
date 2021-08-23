@@ -1,5 +1,10 @@
 import numpy as np
 
+
+def resta(a,b):
+    c=a-b
+    return c
+
 def minimo(a,b,c):
     res=c
     if(a<=b and a<=c):
