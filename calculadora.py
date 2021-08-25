@@ -112,3 +112,6 @@ def divide(a,b):
 
 def tangente(a):
 	return np.tan(a)
+
+def cosecante(a):
+    return np.arctan(a)
