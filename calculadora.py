@@ -1,3 +1,3 @@
 import numpy as np
-def resta(a,b):
-  return a-b
+def cotangente(a):
+  return 1/np.tan(a)
