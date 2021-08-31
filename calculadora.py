@@ -1,5 +1,8 @@
 import numpy as np
 
+def sec(x):
+    return 1/cos(x)
+
 def cotangente(a):
   return 1/np.tan(a)
 
