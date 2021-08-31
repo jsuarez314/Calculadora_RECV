@@ -6,6 +6,9 @@ def sec(x):
 def cotangente(a):
   return 1/np.tan(a)
 
+def pcruz(a,b,c,d):
+    return np.cross([a,b],[c,d]
+
 def maximo(a,b,c):
     n = [a,b,c]
     mayor = n[0]
